@@ -2,7 +2,7 @@ import React from 'react';
 import {SafeAreaView} from 'react-native';
 import MyWeatherMapView from '../../components/Mapview';
 
-const MapSearch = () => {
+const LocationSearch = () => {
     return (
         <SafeAreaView>
             <MyWeatherMapView />
@@ -10,4 +10,4 @@ const MapSearch = () => {
     )
 }
 
-export default MapSearch;
+export default LocationSearch;

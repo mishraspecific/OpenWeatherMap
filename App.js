@@ -8,10 +8,10 @@
 
 import React from 'react';
 import {SafeAreaView} from 'react-native';
-import MapSearch from './src/screens/MapSearch';
+import LocationSearch from './src/screens/LocationSearch';
 
 const App = () => {
-  return <MapSearch />
+  return <LocationSearch />
 };
 
 export default App;
