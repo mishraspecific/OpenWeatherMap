@@ -7,11 +7,21 @@
  */
 
 import React from 'react';
-import {SafeAreaView} from 'react-native';
-import LocationSearch from './src/screens/LocationSearch';
+import {StatusBar} from 'react-native';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import Router from './src/navigation';
+
+const queryClient = new QueryClient();
 
 const App = () => {
-  return <LocationSearch />
+  return (
+    <React.Fragment>
+        <StatusBar style="auto" />
+        <QueryClientProvider client={queryClient}>
+            <Router />
+        </QueryClientProvider>
+    </React.Fragment>
+  );
 };
 
 export default App;
