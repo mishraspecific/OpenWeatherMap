@@ -3,7 +3,6 @@ import { HTTP_METHODS } from './api-constants';
 
 const AXIOS = axios.create({
   timeout: 1000,
-  // headers: () => getReqJsonHeaders()
 });
 
 const getReqJsonHeaders = async () => {
@@ -13,9 +12,7 @@ const getReqJsonHeaders = async () => {
 };
 
 export const request = (url, httpMethod) =>
-  new Promise(async (resolve, reject) => {
-    console.log(url);
-
+  new Promise((resolve, reject) => {
     try {
       if (url) {
         switch (httpMethod) {

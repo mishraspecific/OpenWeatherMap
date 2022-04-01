@@ -60,7 +60,7 @@ const LocationSearch = ({ navigation }) => {
    * It is being use to fetch data conditionally when user press SEARCH button after placing
    * marker at preferred location
    */
-  const { data, error, isError, isSuccess, refetch, isLoading } =
+  const { data, error, isError, isSuccess, isLoading } =
     useLocation(pinnedLocation);
 
   const moveToCityListScreen = () => {

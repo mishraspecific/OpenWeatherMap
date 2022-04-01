@@ -11,18 +11,6 @@ const CityList = ({ route, navigation }) => {
     <CityListItem weaatherInfo={item} navigateTo={navigateToWeatherInfo} />
   );
 
-  const ItemDivider = () => {
-    return (
-      <View
-        style={{
-          height: 1,
-          width: '100%',
-          backgroundColor: '#607D8B',
-        }}
-      />
-    );
-  };
-
   const navigateToWeatherInfo = (item) => {
     console.log('navigateToWeatherInfo', item);
     navigation.navigate('WeatherInfo', {

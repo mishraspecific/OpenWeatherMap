@@ -13,10 +13,9 @@ export default function WeatherInfo({ route, navigation }) {
     main: { temp, temp_max, temp_min, humidity },
     weather: [details],
     wind: { speed },
-    name,
   } = weatherDetails;
 
-  const { icon, main, description } = details;
+  const { icon, description } = details;
 
   const iconUrl = `https://openweathermap.org/img/wn/${icon}@4x.png`;
 

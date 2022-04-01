@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
-import { View, Text } from 'react-native';
-import MapView, { Circle, Marker, PROVIDER_GOOGLE } from 'react-native-maps';
-import { Colors } from '../../themes/Colours';
-import { CustomButton } from '../CustomButton';
+import { View } from 'react-native';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import styles from './styles';
 
 const MyWeatherMapView = React.memo(({ coords, onLocationUpdate }) => {
@@ -48,7 +46,6 @@ const MyWeatherMapView = React.memo(({ coords, onLocationUpdate }) => {
       latitudeDelta: 1,
       longitudeDelta: 1,
     });
-    console.log(region);
   });
 
   const onMarkerDragEnd = useCallback(({ latitude, longitude }) => {
