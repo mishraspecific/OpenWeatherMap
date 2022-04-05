@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
 import Card from '../../components/Card';
-import { Colors } from '../../themes/Colours';
+import { Colors } from '../../themes/Colors';
 
 const { PRIMARY_COLOR, SECONDARY_COLOR } = Colors;
 

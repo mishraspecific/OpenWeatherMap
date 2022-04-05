@@ -7,8 +7,8 @@ import { CustomButton } from '../../components/CustomButton';
 import commonStyles from '../../themes/styles';
 import useLocation from '../../services/fetchLocations';
 import ProgressBar from '../../components/ProgressBar';
-import en from '../../localization/lnagauges/en';
-import { Colors } from '../../themes/Colours';
+import en from '../../localization/langauges/en';
+import { Colors } from '../../themes/Colors';
 import styles from './styles';
 
 const LocationSearch = ({ navigation }) => {

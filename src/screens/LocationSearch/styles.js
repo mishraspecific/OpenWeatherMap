@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { Colors } from '../../themes/Colours';
+import { Colors } from '../../themes/Colors';
 
 export default Styles = StyleSheet.create({
   mapContainer: {
