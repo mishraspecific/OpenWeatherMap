@@ -17,7 +17,6 @@ Put GOOGLE_API_KEY and WEATHER_API_KEY in .env file
 - [ ] Explore the Earth Weather forecast
 - [ ] Check detailed information about the weather by coordinates (lat, lon)
 - [ ] Data Cache
-- [ ] Search functionality
 - [ ] Search weather of nearby 15 cities
 
 ### Build with
